@@ -1,0 +1,109 @@
+:root {
+    --dark-blue: #0E1422;
+    --light-blue: #162953;
+    --light-gray: #F6F6F6;
+    --dark-gray: #eeeeef;
+  }
+  
+  .btn-primary {
+    background-color: var(--dark-blue);
+    color: white;
+    border: 0;
+    padding: 8px 25px;
+  }
+  
+  .btn-primary:hover {
+    background-color: var(--light-blue);
+  }
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .topBar {
+    background-color: var(--dark-blue);
+  }
+  
+  #hero {
+    background-color: var(--light-gray);
+  }
+  
+  .hero-right {
+    position: relative;
+  }
+  
+  .hero-circle {
+    background-color: var(--dark-gray);
+    height: 470px;
+    width: 470px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    left: 32px;
+    top: -2px;
+    overflow: hidden;
+  }
+  
+  .hero-right img {
+    max-width: 70%;
+    position: absolute;
+    right: 26px;
+    top: -15px;
+    z-index: 3;
+  }
+  
+  .rounded-circle {
+    border-radius: 50% !important;
+  }
+  
+  #footer,
+  #newsletter,
+  #featured-products,
+  #start-browsing,
+  #shopnow,
+  #features {
+    padding: 80px 0;
+  }
+  
+  #start-browsing {
+    background-image: linear-gradient(120deg, #cbcbcb71 0%, #ebedee00 100%);
+  }
+  
+  #start-browsing p {
+    color: #9c9c9c;
+  }
+  
+  .bg-secondary-subtle {
+    background-color: var(--light-gray) !important;
+  }
+  
+  #newsletter {
+    background-color: var(--dark-gray);
+  }
+  
+  #footer h6 {
+    color: #afafaf;
+  }
+  
+  #footer ul li a {
+    color: #5C5F6A;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .hero-circle {
+      display: none;
+    }
+    .hero-right img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  
